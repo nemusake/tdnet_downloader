@@ -8,7 +8,7 @@ TDnetからXBRLファイルをダウンロードする機能
 実行コマンド
 #### 決算短信の一括処理
 # 基本的な一括処理（ダウンロード→財務データ抽出→CSV出力→ファイル削除）
-uv run python tdnet_xbrl_downloader.py --extract-all -d 2025-08-19 --filter kessan --all-pages
+uv run python tdnet_xbrl_downloader.py --extract-all -d 2025-09-15 --filter kessan --all-pages
 """
 
 import argparse
